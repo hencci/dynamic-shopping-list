@@ -9,4 +9,11 @@ button.addEventListener("click", () => {
     const listItem = document.createElement("li");
     const listContent = document.createElement("span");
     const listButton = document.createElement("button");
+
+    listContent.textContent = myItem;
+    listItem.appendChild(listContent);
+    listButton.textContent = "Delete";
+    listItem.appendChild(listButton);
+
+    list.appendChild(listItem);
 });
