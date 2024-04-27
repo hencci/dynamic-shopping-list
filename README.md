@@ -1,0 +1,1 @@
+This a simple shopping list program that allows user to dynamically add items to the list using a form input and button, and delete those items off the list.
